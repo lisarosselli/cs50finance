@@ -1,0 +1,83 @@
+/**
+ * styles.css
+ *
+ * Computer Science 50
+ * Problem Set 7
+ *
+ * Global CSS.
+ */
+
+.container
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#top
+{
+    /* center contents */
+    text-align: center;
+}
+
+#middle .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+#middle td
+{
+    /* left-align tables' cells */
+    text-align: left;
+}
+
+#middle .nav
+{
+    /* center navigation pills */
+    display: inline-block;
+}
+
+#bottom
+{
+    /* shrink bottom's font size */
+    font-size: smaller;
+
+    /* surround with whitespace */
+    margin: 20px;
+}
+
+#hint
+{
+    font-size: smaller;
+    color: #dddddd;
+	-moz-transform: rotate(-180deg);  /* FF3.5+ */
+	-o-transform: rotate(-180deg);  /* Opera 10.5 */
+	-webkit-transform: rotate(-180deg);  /* Safari 3.1+, Chrome */
+}
+
+.username
+{
+    font-weight: bold;
+    color: #FFFF00;
+    padding: 10px;
+    background-color: #ccc;
+    border-radius: 4px;
+}
+
+.nav > li > a:hover
+{
+    background-color: #dddd00;
+}
+
+.nav > li > a
+{
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
